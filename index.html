@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 001 - CSS3</title>
+</head>
+<body>
+    <!-- Desenvolva um formulário para cadastro de usuário, com os campos, nome, username, email, senha, cpf e um botão de enviar e estilize-o com css da maneira que preferir. -->
+    <form action="post">
+
+        <h1>Preencha com seus dados e crie sua conta</h1>
+
+        <h2>use todos nossos recursos de graça para sempre</h2>
+
+        <div class="caixa1">
+            <input type="text" id="nome" placeholder="Nome completo" required class="inputs-caixa">
+    
+            <input type="text" id="username" placeholder="Seu nome de usuário" required class="inputs-caixa">
+        </div>
+        <div class="caixa2">
+            <input type="email" id="email" placeholder="Seu email" required class="inputs-caixa">
+    
+            <input type="number" id="cpf" placeholder="Seu CPF" required class="inputs-caixa">
+        </div>
+
+        <div class="caixa3">
+            <input type="password" id="senha" placeholder="Crie uma senha" required class="senha">
+
+            <button type="submit">Criar conta</button>    
+        </div>
+
+    </form>
+
+    <footer>
+        <small>ao clicar neste botão você concorda com nossos <strong>Termos de serviço</strong> </small>
+    </footer>
+
+</body>
+</html>
