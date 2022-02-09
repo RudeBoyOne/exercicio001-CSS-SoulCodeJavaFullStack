@@ -10,12 +10,12 @@ html{
     background:  linear-gradient(rgba(0,0,0,.10),rgba(0,0,0.10)), url("fundo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
 }
 
 body{
     color: white;
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
 }
 
 form{
