@@ -2,4 +2,4 @@
 
 <br>
 
-![preview exercício 001 - CSS](foto1.png)
+![preview exercício 001 - CSS](printExercicio.png)
